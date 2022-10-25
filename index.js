@@ -19,5 +19,10 @@ app.get('/prakhar',(req, res)=>{
     res.sendFile(path.join(__dirname+'/html', '/prakhar.html'));
 });
 
+app.get('/anant',(req, res)=>{
+    res.sendFile(path.join(__dirname+'/html', '/anant.html'));
+});
+
+
 
 app.listen(port);
