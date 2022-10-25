@@ -15,5 +15,9 @@ app.get('/utkarsh',(req, res)=>{
     res.sendFile(path.join(__dirname+'/html', '/utkarsh.html'));
 });
 
+app.get('/prakhar',(req, res)=>{
+    res.sendFile(path.join(__dirname+'/html', '/prakhar.html'));
+});
+
 
 app.listen(port);
