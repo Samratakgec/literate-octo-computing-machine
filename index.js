@@ -23,6 +23,8 @@ app.get('/anant',(req, res)=>{
     res.sendFile(path.join(__dirname+'/html', '/anant.html'));
 });
 
-
+app.get('/utkarshsinghjadon',(req, res)=>{
+    res.sendFile(path.join(__dirname+'/html', '/utkarshsinghajadon.html'));
+});
 
 app.listen(port);
